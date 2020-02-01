@@ -1,0 +1,41 @@
+@import 'vars';
+
+html{
+   box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+   box-sizing: inherit;
+}
+a{
+   text-decoration: none;
+   color: inherit;
+}
+ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+   margin: 0;
+}
+body{
+   font-family: 'Roboto', sans-serif;
+}
+.container{
+   max-width: 1210px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+.title{
+   color: #383334;
+   font-weight: 900;
+   line-height: 44px;
+   font-size: 44px;
+   font-weight: 400;
+}
+section{
+   text-align: center;
+}
