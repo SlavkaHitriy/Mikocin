@@ -203,6 +203,15 @@
 
 
 @media (max-width: 400px){
+   .header__form{
+      max-width: 280px;
+      min-width: 280px;
+      padding: 50px 10px;
+      input{
+         padding-left: 45px;
+         background-position: 20px center;
+      }
+   }
    .title{
       font-size: 30px;
       line-height: 30px;
