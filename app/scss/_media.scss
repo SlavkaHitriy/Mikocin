@@ -207,10 +207,16 @@
       max-width: 100%;
       min-width: 100%;
       padding: 50px 10px;
+      clip-path: none;
       input{
          padding-left: 45px;
          background-position: 20px center;
       }
+   }
+   .header__form-free{
+      border: none;
+      top: 20px;
+      height: auto;
    }
    .title{
       font-size: 30px;
